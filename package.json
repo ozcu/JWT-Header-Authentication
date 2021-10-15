@@ -6,13 +6,14 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start":"json-server --watch ./db.json",
-    "start-auth":"node ./server.js"
+    "start": "json-server --watch ./db.json",
+    "start-auth": "node ./server.js"
   },
   "dependencies": {
     "axios": "^0.23.0",
     "core-js": "^3.6.5",
     "cors": "^2.8.5",
+    "express": "^4.17.1",
     "faker": "^5.5.3",
     "json-server": "^0.17.0",
     "jsonwebtoken": "^8.5.1",
