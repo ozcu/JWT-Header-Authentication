@@ -34,18 +34,11 @@ export default {
             password:''
         }
     },
+    computed:{
+
+    },
     methods:{
-      /* async  handleSubmit(){
-
-          const data = {
-            email:this.email,
-            password:this.password
-
-          }
-
-          const response = await axios.post('login',data)
-          console.log(response)
-        } */
+      
         async  handleSubmit(){
 
           const data = {
@@ -55,11 +48,13 @@ export default {
           }
 
           const response =  await axios.post('/auth/login',data)
-          
-          
           window.localStorage.setItem('token',response.data.access_token)
-          console.log(localStorage.token)
-
+          console.log(response.data.access_token)
+          console.log(response.data.user)
+          
+          this.$store.state.user = response.data.user
+         
+          this.$router.push('/')
         }
     },
 }
