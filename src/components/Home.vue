@@ -1,28 +1,24 @@
 <template>
   <div><h1>Home</h1>
- 
+ <h3 v-if="user"> Hi , {{user.firstName }}</h3>
+<h3 v-if="!user">You are not logged in!</h3>
   </div>
   
 </template>
 
 <script>
-import axios from 'axios'
+import {mapState} from 'vuex'
+
 export default {
 name:'Home',
-async created(){
 
-  const response = await axios.get('users',{
-      headers:{
-          Authorization:`Bearer ${localStorage.token}` 
-      }
-    
-  })
- 
-  console.log(response)
-  
-}
+  computed:{
+    ...mapState(['user'])
+  }
 
 }
+
+
 </script>
 
 <style>
