@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": 86235,
+      "firstName": "Krystel",
+      "lastName": "Kassulke",
+      "email": "Justina.Marquardt59@gmail.com",
+      "password": "tsULcqTc8SzERg0"
+    },
+    {
+      "id": 52360,
+      "firstName": "Jeanne",
+      "lastName": "Cronin",
+      "email": "Marge72@hotmail.com",
+      "password": "rjYWgbjcTPBy5Dr"
+    },
+    {
+      "id": 61590,
+      "firstName": "Johathan",
+      "lastName": "Wolff",
+      "email": "Hilda_Stokes65@yahoo.com",
+      "password": "7q4XOqG8UyJu9yI"
+    },
+    {
+      "id": 90916,
+      "firstName": "Fae",
+      "lastName": "Lynch",
+      "email": "Taya_Reinger@yahoo.com",
+      "password": "r3g3V6ouvz1aZfv"
+    },
+    {
+      "id": 24385,
+      "firstName": "Alba",
+      "lastName": "Barton",
+      "email": "Mavis_Hessel16@hotmail.com",
+      "password": "BnfnMFfztURIf0H"
+    },
+    {
+      "id": 81667,
+      "firstName": "Camren",
+      "lastName": "Kunze",
+      "email": "Libby_Moore@gmail.com",
+      "password": "VL1Z3CE17Bj5mte"
+    },
+    {
+      "id": 53853,
+      "firstName": "Alexie",
+      "lastName": "Doyle",
+      "email": "Haven37@gmail.com",
+      "password": "DBzmR3baXlm1HGl"
+    },
+    {
+      "id": 83240,
+      "firstName": "Lou",
+      "lastName": "Kovacek",
+      "email": "Xavier_Runolfsson78@gmail.com",
+      "password": "5CdrhwxTuDr0lz1"
+    },
+    {
+      "id": 84261,
+      "firstName": "Laurel",
+      "lastName": "Cruickshank",
+      "email": "Roslyn7@yahoo.com",
+      "password": "p5tTmL5snkA5NB1"
+    },
+    {
+      "id": 62065,
+      "firstName": "Martina",
+      "lastName": "Herman",
+      "email": "Marjolaine51@yahoo.com",
+      "password": "4QGfqLep26AJSzM"
+    },
+    {
+      "firstName": "ugurhan",
+      "lastName": "buyukozcu",
+      "email": "ugurhan@v-count.com",
+      "password": "q1a2",
+      "passwordConfirm": "q1a2",
+      "id": 90917
+    }
+  ]
+}
